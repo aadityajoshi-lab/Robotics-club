@@ -103,7 +103,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 25px 0.8%;
+  padding: 2px 1.5%;
   background: rgba(255, 255, 255, 0.2);
   display: flex;
   align-items: center;
@@ -131,27 +131,31 @@ body {
     text-decoration: none;
     font-weight: 600;
     cursor: default;
-    width: 250px;
-    height: auto;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    padding: 10px;
+    padding: 0px;
 
 }
 .header .logo img{
-    max-height: 90%;
-    max-width: 48%;
+    height: 42px;
+    width: auto;
     display: block;
 
 }
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 0px 50px;
+}
+
 .navbar a {
     color: var(--white);
     font-size: 18px;
     text-decoration: none;
-    margin-left: 35px;
     transition: .3s;
 }
+
 .navbar a:hover {
     color: var(--blue);
 }
@@ -170,7 +174,7 @@ body {
     width: 100%;
     height: auto;
     display: flex;
-    top: 180px;
+    top: 85px;
 }  
 .text-box {
   position: absolute;
@@ -467,7 +471,7 @@ body {
 }
 
 .footer-logo img{
-    width: 140px;
+    width: 90px;
     margin-bottom: 15px;
     
 }
@@ -670,19 +674,15 @@ justify-self: center;
 @media (max-width: 800px) {
   #menu-icon {
         display: block;
-        margin-left: 100px;
         padding-right: 30px;
-    }
-    .header{
-        height: 120px;
     }
     .navbar {
         display: none;
     }
      .navbar {
         position: absolute;
-        top: 130px;
-        left: 0px;
+        top: 90px;
+        left: -50px;
         width: 100%;
         background: transparent;
         text-align: center;
@@ -704,7 +704,7 @@ justify-self: center;
         top: 0;
         left: 0;
         width: 100%;
-        height: 390px;
+        height: 340px;
         background: rgba(255, 255, 255, .1);
         border-bottom: 2px solid rgba(255, 255, 255, .2);
         backdrop-filter: blur(10px);
@@ -726,7 +726,8 @@ justify-self: center;
         flex-direction: column; 
         gap: 30px;
         padding-bottom: 30px;
-        align-items: center;  
+        align-items: center; 
+        margin: 20px 0px; 
     }
 
     .footer-logo {
@@ -801,7 +802,7 @@ justify-self: center;
     }
 
     .footer-logo img {
-        width: 180px;           
+        width: 120px;           
         margin-bottom: 15px;
     }
     .footer-item:nth-of-type(2) {
@@ -857,8 +858,3 @@ justify-self: center;
 
 }
 
-@media (max-width: 568px) {
-    .footer-items{
-        margin: 20px 0px;
-    }
-}
