@@ -365,7 +365,7 @@ body {
     grid-column: 2 / 3;
     grid-row: 1 / 3;
     width: 100%;
-    height: 45vw;
+    height: 500px;   /* faster load */
     justify-self: center;
     align-self: center;
 }

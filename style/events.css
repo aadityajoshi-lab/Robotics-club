@@ -329,24 +329,11 @@ body {
     border: 1px solid rgba(255,255,255,0.12);
     backdrop-filter: blur(12px);
     box-shadow: 0px 0px 35px rgba(0, 255, 255, 0.10);
-}
-
-.event-box {
-    display: flex;
-    gap: 40px;
-    /* margin: clamp(50px, 10vw, 150px) 2vw 0 2vw; */
-    background: rgba(0, 0, 0, 0.04);
-    /* padding: 6vw; */
-    border-radius: 22px;
-    border: 1px solid rgba(255,255,255,0.12);
-    backdrop-filter: blur(12px);
-    box-shadow: 0px 0px 35px rgba(0, 255, 255, 0.10);
-    max-width: 1400px; 
-    margin-left: auto;
-    margin-right: auto; 
-    height: fit-content;
-    position: relative;
-    /* padding-top: 300px; */
+     max-width: 1400px; 
+    margin: 5vw auto;
+    padding: 50px;      /* ensures space so button is not hidden */
+    height: auto;       /* important */
+    align-items: flex-start; /* allows natural height growth */
 }
 
 
@@ -380,10 +367,9 @@ body {
 
 .event-right img {
     width: 100%;
-    max-height: 600px; 
+    height: auto;
     object-fit: cover;
-height: auto;
-max-height: none;
+    border-radius: 18px;
 }
 
 
@@ -728,7 +714,8 @@ justify-self: center;
         flex-direction: column; 
         gap: 30px;
         padding-bottom: 30px;
-        align-items: center;  
+        align-items: center; 
+        margin: 20px 0px; 
     }
 
     .footer-logo {
@@ -778,8 +765,3 @@ justify-self: center;
 
 }
 
-@media (max-width: 568px) {
-    .footer-items{
-        margin: 20px 0px;
-    }
-}

@@ -45,3 +45,10 @@ for (let r = 0; r < rows; r++) {
 
     hexWrapper.appendChild(row);
 }
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const viewer = document.querySelector("spline-viewer");
+  viewer.setAttribute("loading", "eager");
+});
