@@ -159,17 +159,19 @@ body {
 .core-team-name,
 .team-members-name {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 350px));
     gap: 25px;
-    justify-items: center;
+    justify-content: center;
 }
 
 .member-complete-info{
-    width: 350px;
-    height: 620px;
+    width: 100%;
+    height: auto;
+
     position: relative;
     border: 2px solid transparent;
     margin: 0 auto;
+    justify-items: center;
 
 }
 
@@ -183,7 +185,7 @@ body {
 
 .team-container{
     height: 470px;
-    width: 350px;
+    width: 100%;
     border: 2px solid;
     border-left-color: var(--rose-red);
     border-right-color: var(--rose-red);
@@ -675,6 +677,7 @@ justify-self: center;
         gap: 30px;
         padding-bottom: 30px;
         align-items: center;  
+        margin: 20px 0px;
     }
 
     .footer-logo {
@@ -728,9 +731,3 @@ justify-self: center;
 
 
 
-
-@media (max-width: 568px) {
-    .footer-items{
-        margin: 20px 0px;
-    }
-}

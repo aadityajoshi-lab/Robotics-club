@@ -171,7 +171,6 @@ body {
 
 .all-resources {
     margin-top: 40px;
-
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -477,7 +476,7 @@ justify-self: center;
     .horizontal-line{
         margin-bottom: 0px;
     }
-            .resources-heading h2 {
+    .resources-heading h2 {
         padding-top: 50px;
         font-size: 7vw;
     }

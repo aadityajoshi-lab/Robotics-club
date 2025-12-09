@@ -132,7 +132,7 @@ body {
 }
 .all-resources .container .card{
     position: relative;
-    min-width: 320px;
+    min-width: 260px;
     height: 440px;
     box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
                 inset -5px -5px 15px rgba(255,255,255,0.1),
@@ -242,8 +242,7 @@ body {
 .event-content .upcoming-event p{
         font-size: 22px;
     color: var(--light-blue);
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 40px 10px;
      
 }
 
@@ -263,7 +262,7 @@ body {
     width: 100%;
     height: auto;
     overflow: hidden;
-    top: -100px;
+    top: -150px;
 
 }
 
@@ -771,7 +770,7 @@ justify-self: center;
 }
 @media (max-width: 768px) {
    
-.event-content .upcoming-event h1 {
+.event-content .upcoming-event h2 {
         padding-top: 50px;
         font-size: 33px;
     }

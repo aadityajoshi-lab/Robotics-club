@@ -25,7 +25,7 @@ menuIcon.addEventListener('click', () => {
 
 const hexWrapper = document.querySelector('.hex-wrapper');
 
-const rows = 15;      // adjust as needed
+const rows = 13;      // adjust as needed
 const hexPerRow = 25; // adjust as needed
 
 for (let r = 0; r < rows; r++) {

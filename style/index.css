@@ -235,7 +235,7 @@ body {
     width: 100%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    /* padding-top: 100px; */
     margin-bottom: 30px;
 }
 
@@ -773,6 +773,9 @@ justify-self: center;
 
     .footer {
         padding: 50px 20px 0;
+    }
+    .our-vision h1{
+        font-size: 40px;
     }
 
 }
